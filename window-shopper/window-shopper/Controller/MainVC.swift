@@ -29,5 +29,8 @@ class MainVC: UIViewController {
     @objc func calculate() {
         print("We got here")
     }
+    
+    //PRO TIP - Good functions accept input and return output
+    //Bad functions set global variables and rely on other functions to work
 }
 
