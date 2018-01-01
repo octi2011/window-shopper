@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B64FC9F1FFA4CC9001B4FE1 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B64FC9E1FFA4CC9001B4FE1 /* CurrencyTxtField.swift */; };
 		2BE23D311FF55E0700D48651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE23D301FF55E0700D48651 /* AppDelegate.swift */; };
-		2BE23D331FF55E0700D48651 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE23D321FF55E0700D48651 /* ViewController.swift */; };
+		2BE23D331FF55E0700D48651 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE23D321FF55E0700D48651 /* MainVC.swift */; };
 		2BE23D361FF55E0700D48651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE23D341FF55E0700D48651 /* Main.storyboard */; };
 		2BE23D381FF55E0700D48651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE23D371FF55E0700D48651 /* Assets.xcassets */; };
 		2BE23D3B1FF55E0700D48651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE23D391FF55E0700D48651 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B64FC9E1FFA4CC9001B4FE1 /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
 		2BE23D2D1FF55E0700D48651 /* window-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "window-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BE23D301FF55E0700D48651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2BE23D321FF55E0700D48651 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2BE23D321FF55E0700D48651 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		2BE23D351FF55E0700D48651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2BE23D371FF55E0700D48651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BE23D3A1FF55E0700D48651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B64FC9D1FFA4C98001B4FE1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2B64FC9E1FFA4CC9001B4FE1 /* CurrencyTxtField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		2BE23D241FF55E0700D48651 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +64,23 @@
 		2BE23D2F1FF55E0700D48651 /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				2B64FC9D1FFA4C98001B4FE1 /* Views */,
+				2BE23D421FF55EE300D48651 /* Controller */,
 				2BE23D301FF55E0700D48651 /* AppDelegate.swift */,
-				2BE23D321FF55E0700D48651 /* ViewController.swift */,
 				2BE23D341FF55E0700D48651 /* Main.storyboard */,
 				2BE23D371FF55E0700D48651 /* Assets.xcassets */,
 				2BE23D391FF55E0700D48651 /* LaunchScreen.storyboard */,
 				2BE23D3C1FF55E0700D48651 /* Info.plist */,
 			);
 			path = "window-shopper";
+			sourceTree = "<group>";
+		};
+		2BE23D421FF55EE300D48651 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2BE23D321FF55E0700D48651 /* MainVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BE23D331FF55E0700D48651 /* ViewController.swift in Sources */,
+				2BE23D331FF55E0700D48651 /* MainVC.swift in Sources */,
 				2BE23D311FF55E0700D48651 /* AppDelegate.swift in Sources */,
+				2B64FC9F1FFA4CC9001B4FE1 /* CurrencyTxtField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
